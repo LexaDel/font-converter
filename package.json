@@ -1,0 +1,16 @@
+{
+  "name": "font-converter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "convert": "node ./src/index.js ./input ./output"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ttf2woff": "^3.0.0",
+    "ttf2woff2": "^6.0.1"
+  }
+}
